@@ -1,0 +1,248 @@
+/* Font Importing and font styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@font-face {
+    font-family:'Miama';
+    src: url('fonts/Miama.ttf');
+}
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+
+
+/* Common Styles */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.smart-container {
+    width: 73.61%;
+    margin:0 auto;
+}
+
+body {
+    background-color: black;
+    color:white;
+}
+
+
+
+
+
+.brand-name {
+    font-style: italic;
+    color:#E6533C;
+    font-size: 2.25rem;
+}
+
+
+.menu {
+    display: none;
+}
+.nav-container>ul>li {
+    list-style-type: none;
+    
+}
+.nav-container>ul>li>a {
+    text-decoration: none;
+    gap:20px;
+    color:white;
+    font-size: 1.2rem;
+    
+}
+
+.nav-container>ul {
+    display: flex;
+    gap:47px;
+    
+
+}
+
+.home {
+    background-color: #E6533C;
+    font-weight: 500;
+    padding: 8px 20px;
+    border-radius: 46px;
+}
+.about {
+    padding: 8px 20px;
+    border-radius: 46px;
+}
+
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:57px;
+}
+
+header {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+
+.text-side>h1 {
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    line-height: 80px;
+    font-size: 4.875rem;
+}
+.shape-txt {
+    font-family: 'Miama';
+    font-weight: 400;
+    font-size: 7rem;
+    font-style: italic;
+}
+
+.hero {
+    display:flex;
+    align-items: center;
+    gap:167px;
+}
+
+.image-content>img {
+    width:100%
+}
+
+.nav-container{
+    border:1px solid rgba(255, 255, 255, 0.1);
+    padding:12px 5px;
+    border-radius: 39px;
+}
+
+.primary {
+    background-color: #E6533C;
+    padding:16px 40px;
+    font-family: 'inter';
+    font-size: 1.2rem;
+    font-weight: 600;
+    color:white;
+    border: none;
+    border-radius: 42px;
+}
+.secondary {
+    background-color: transparent;
+    padding:16px 40px;
+    font-family: 'inter';
+    font-size: 1.2rem;
+    font-weight: 600;
+    color:white;
+    border: 1px solid white;
+    border-radius: 42px;
+}
+
+.btn-container {
+    display:flex;
+    gap:14px;
+}
+
+.hero-paragraph {
+    margin: 28px 0px;
+    color:rgba(255, 255, 255, 0.5);
+}
+
+
+/* Positioning card */
+
+.image-side {
+    position: relative;
+}
+
+
+
+
+
+.circle {
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #E6533C;
+}
+
+
+.tp-card-1 {
+    width: 206px;
+    height: 96px;
+    background:rgba(48, 48, 48, 0.54);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    right: 72%;
+    bottom: 13%;
+
+}
+.tp-card-2 {
+    width: 193px;
+    height: 98px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    position: absolute;
+    bottom: 62%;
+    left: 67%;
+
+}
+
+.tp-card-1 h3 {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.tp-card-1 p {
+    font-size: 1rem;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.65);
+}
+.tp-card-2 h3 {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.tp-card-2 p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.65);
+}
+
+.tp-text {
+    margin-left: 24px;
+}
+
+
+main {
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .menu {
+        display: block;
+    }
+
+    .nav-container ul {
+        display: none;
+    }
+
+    .nav-container {
+        border: none;
+    
+    }
+    .hero {
+        flex-direction: column;
+    }
+
+    
+}
