@@ -314,6 +314,8 @@ main {
     .tp-text {
         margin-left: 18px;
     }
-
+    .primary, .secondary {
+       padding:18px 26px;
+    }
     
 }
