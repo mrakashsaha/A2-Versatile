@@ -98,7 +98,7 @@ header {
 .hero {
     display:flex;
     align-items: center;
-    gap:167px;
+    gap:20%;
 }
 
 .image-content>img {
@@ -115,17 +115,19 @@ header {
     background-color: #E6533C;
     padding:16px 40px;
     font-family: 'inter';
-    font-size: 1.2rem;
+    font-size: 1.12rem;
     font-weight: 600;
     color:white;
     border: none;
     border-radius: 42px;
 }
+
+
 .secondary {
     background-color: transparent;
     padding:16px 40px;
     font-family: 'inter';
-    font-size: 1.2rem;
+    font-size: 1.12rem;
     font-weight: 600;
     color:white;
     border: 1px solid white;
@@ -228,6 +230,12 @@ main {
 
 
 @media screen and (max-width:576px) {
+    
+    
+    .smart-container {
+        width: 90%;
+        margin: 0 auto;
+    }
     .menu {
         display: block;
     }
@@ -242,6 +250,65 @@ main {
     }
     .hero {
         flex-direction: column;
+        /* gap:48px; */
+    }
+
+    .text-side h1 {
+        
+            font-size: 2.25rem;
+            line-height: 3rem;
+ 
+    }
+
+    .shape-txt {
+        font-size: 5rem;
+    }
+
+    .club {
+        display: none;
+    }
+
+    .circle {
+        width:30px;
+        height: 30px;
+    }
+
+    .tp-card-1 {
+        width: 155px;
+        height: 72px;
+        right: 53%;
+        bottom: 37%;
+    
+    }
+    .tp-card-2 {
+        width: 145px;
+        height: 74px;
+        bottom: 75%;
+        left: 53%;
+    
+    }
+    
+    .tp-card-1 h3 {
+        font-size: 1.12rem;
+        font-weight: 900;
+    }
+    .tp-card-1 p {
+        font-size: 0.75rem;
+        font-weight: 400;
+        color:rgba(255, 255, 255, 0.65);
+    }
+    .tp-card-2 h3 {
+        font-size: 1.87rem;
+        font-weight: 900;
+    }
+    .tp-card-2 p {
+        font-size: 0.56rem;
+        font-weight: 400;
+        color:rgba(255, 255, 255, 0.65);
+    }
+    
+    .tp-text {
+        margin-left: 18px;
     }
 
     
