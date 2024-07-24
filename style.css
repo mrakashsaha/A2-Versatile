@@ -22,10 +22,17 @@
     margin:0 auto;
 }
 
+.smart-container-2 {
+    width: 70%;
+    margin:0 auto;
+}
+
 body {
     background-color: black;
     color:white;
 }
+
+
 
 
 
@@ -114,7 +121,7 @@ header {
 .primary {
     background-color: #E6533C;
     padding:16px 40px;
-    font-family: 'inter';
+    font-family: "Inter", sans-serif;;
     font-size: 1.12rem;
     font-weight: 600;
     color:white;
@@ -126,7 +133,7 @@ header {
 .secondary {
     background-color: transparent;
     padding:16px 40px;
-    font-family: 'inter';
+    font-family: "Inter", sans-serif;
     font-size: 1.12rem;
     font-weight: 600;
     color:white;
@@ -218,11 +225,65 @@ header {
 }
 
 
-main {
-    background-color: aqua;
+/* Habites section start here */
+
+
+.habits {
+    margin-top:100px;
+}
+.circle-cards {
+    display: flex;
+    justify-content: space-around;
 }
 
+.circle-card {
+    width:20%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.habits-text {
+    max-width: 60%;
+    margin:0 auto;
+}
+
+.habits-text h2 {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.habits-text p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color:rgba(255, 255, 255, 0.5);
+    margin-bottom: 58px;
+}
+.circle-card>img {
+    border-radius: 50%;
+    border-color: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.circle-card h4 {
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 120%;
+    font-weight: 600;
+    margin-top:30px;
+    margin-bottom: 7px;
+    
+}
+
+.circle-card p {
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color:rgba(255, 255, 255, 0.5);
+}
 
 
 
@@ -317,5 +378,34 @@ main {
     .primary, .secondary {
        padding:18px 26px;
     }
+
+
+    /* Habits section responsiveness */
+    .circle-cards {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .circle-card {
+        width: 60%;
+        margin-bottom: 40px;
+    }
+
+    .habits-text {
+        max-width: 90%;
+        margin:0 auto;
+    }
+
+
+    .habits-text h2 {
+        font-size: 2rem;
+        font-weight: 900;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
     
+
+
 }
