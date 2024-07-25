@@ -32,6 +32,19 @@ body {
     color:white;
 }
 
+.content-heading {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+.content-para {
+    font-size: 0.9rem;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    line-height: 170%;
+    color:rgba(255, 255, 255, 0.5);
+}
+
 
 
 
@@ -286,6 +299,38 @@ header {
 }
 
 
+/* Extra-Mile Section Start here */
+
+.extra-mile {
+    margin-top:100px;
+    display:flex;
+    background-color: #222222;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.extra-mile-text {
+    padding:40px 54px;
+    
+}
+
+.extra-mile-text p {
+    margin-top:14px;
+    margin-bottom: 34px;
+}
+
+.extra-mile-image {
+    padding:30px 32px;
+    width:100%;
+}
+.extra-mile-image img {
+    max-width:100%;
+    border-radius: 18px;
+ 
+}
+
+
+
 
 /* Responsive for Mobile Devices */
 
@@ -405,7 +450,29 @@ header {
         margin-bottom: 20px;
     }
 
+
+    .extra-mile { 
+        flex-direction: column;
+    }
     
+    .extra-mile-text {
+        padding:33px;
+    }
+
+
+    .extra-mile-text h2 {
+        font-size: 2rem;
+        
+    }
+    .join-now {
+        width:100%;
+    }
+    
+    .extra-mile-image {
+        padding:10px;
+        width:80%;
+        margin: 0 auto;
+    }   
 
 
 }
