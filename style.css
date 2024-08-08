@@ -419,9 +419,18 @@ input, .sex, .activity {
 
 .calculate {
     padding:16px 70.5px;
-    margin-top:20px;
+    margin-top:34px;
+    margin-bottom: 50px;
+}
+/* Meet Your Team */
+
+.meet {
+    margin-top: 88px;
 }
 
+.meet-heading {
+    text-align: center;
+}
 
 /* Responsive for Mobile Devices */
 
