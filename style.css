@@ -807,4 +807,29 @@ hr {
         margin-top:66px;
     }
 
+
+    /* Footer Styles */
+
+    .columns {
+        flex-direction: column;
+    }
+
+    .first-col, .second-col, .third-col {
+        width:90%;
+        margin-bottom: 30px;
+    }
+
+    hr {
+        margin-top:10px;
+    }
+
+    .copyright {
+
+    font-size: 1.25rem;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+text-align: left;
+    }
+
 }
