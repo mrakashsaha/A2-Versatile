@@ -1,5 +1,6 @@
 /* Font Importing and font styles */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css');
 @font-face {
     font-family:'Miama';
     src: url('fonts/Miama.ttf');
@@ -561,7 +562,7 @@ footer {
     margin-bottom:20px;
 }
 
-hr {
+.above-copyright {
     color:rgba(255, 255, 255, 0.1);
     border:1px solid;
     margin-top:60px;
@@ -583,7 +584,80 @@ hr {
     padding:36px 0px;
 }
 
+/* Option section Membership */
 
+.membership {
+    margin-top:88px;
+}
+.membership-heading h2  {
+    text-align: center;
+}
+
+.membership-para {
+    width:72%;
+    text-align: center;
+    margin: 20px auto;
+    
+}
+
+.ship-card-container{
+    background-color: #1a1a1a;
+    padding: 60px 45px;
+    border-radius: 18px;
+}
+
+
+.ship-card-container>h4 {
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 4.5rem;
+}
+
+
+.ship-card-container>h5 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 4rem;
+}
+
+
+.ship-card-container>p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+    /* line-height: 4rem; */
+}
+
+.membership-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:50px;
+}
+
+.ship-card-container>ul {
+    list-style-type: none;
+
+}
+
+.ship-card-container>ul>li{
+    background:20px;
+    padding:10px 0px;
+}
+
+.choose {
+    margin-top:35px;
+    border-radius: 10px;
+    border:3px solid #E6533C;
+    background-color: transparent;
+}
+
+.circle-check{
+    padding-right:10px;
+}
 
 
 /* Responsive for Mobile Devices */
@@ -820,7 +894,7 @@ hr {
         margin-bottom: 30px;
     }
 
-    hr {
+    .above-copyright {
         margin-top:10px;
     }
 
@@ -833,4 +907,25 @@ letter-spacing: 0.3px;
 text-align: left;
     }
 
+    /* Membership */
+
+    .membership{
+        margin-top:50px;
+    }
+    .membership-cards {
+        flex-direction: column;
+        
+    }
+
+    .membership-card {
+        margin-top:20px;
+    }
+    .membership-para {
+        width:85%;
+        text-align: center;
+    }
+
+    .membership-header {
+        font-size:1.8rem;
+    }
 }
