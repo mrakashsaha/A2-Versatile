@@ -490,6 +490,7 @@ input, .sex, .activity {
     z-index: 1;
     height: 100%;
     margin-top: -276px;
+    border-radius:18px;
 }
 
 
